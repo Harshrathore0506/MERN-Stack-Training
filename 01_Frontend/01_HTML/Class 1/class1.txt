@@ -1,0 +1,103 @@
+**HTML**
+
+**Tag:** Tags are the basic building blocks of HTML. They define how elements are displayed in a browser, e.g., `<p>`, `<h1>`, `<a>`.
+
+**Elements:** HTML elements consist of a start tag, content, and an end tag. For example, `<p>This is a paragraph.</p>`.
+
+**Self Closing Tag:** These are HTML tags that do not need a closing tag. Examples: `<img>`, `<br>`, `<hr>`.
+
+**Attributes:** Provide additional information about HTML elements. For example, `href` in `<a href="https://example.com">Link</a>`.
+
+**HTTPS:** HyperText Transfer Protocol Secure – it uses SSL/TLS to encrypt communication between browser and server.
+
+**HTTP:** HyperText Transfer Protocol – it is the foundation of data communication on the web, but without encryption.
+
+**How a Website Renders:**
+1. Browser sends a request to the server via URL.
+2. Server processes the request and sends back HTML, CSS, JS.
+3. Browser parses and renders the page on the screen.
+
+**URL:** Uniform Resource Locator – the address used to access a resource on the internet. Example: `https://www.example.com/page`.
+
+**IPv4 vs IPv6:**
+- IPv4: 32-bit address, limited to ~4.3 billion addresses (e.g., 192.168.0.1).
+- IPv6: 128-bit address, offers a vastly larger number of addresses (e.g., 2001:0db8:85a3::8a2e:0370:7334).
+
+**Levels of Domain:**
+- Top-Level Domain (TLD): `.com`, `.org`
+- Second-Level Domain: `example` in `example.com`
+- Subdomain: `www` in `www.example.com`
+
+**Search Engine:** A system that indexes web content and provides search functionality (e.g., Google, Bing).
+
+**Client-Server Model:**
+- Client sends a request (usually via browser).
+- Server processes it and sends back the response (HTML, data).
+
+**Meta:** Tags in HTML that provide metadata like character set, author, description, and keywords for SEO.
+
+**SEO:** Search Engine Optimization – techniques used to increase a website's visibility in search engines.
+
+**Title:** Defines the title of the document shown on browser tabs and bookmarks.
+
+**Inline and Block Elements:**
+- Inline: Does not start on a new line (`<span>`, `<a>`).
+- Block: Starts on a new line and takes full width (`<div>`, `<p>`, `<h1>`).
+
+**Inline-block Elements:** Behaves like inline (in a line) but allows setting width/height like block elements.
+
+**Div Advantage:**
+- Acts as a container to group HTML elements.
+- Useful for styling and layout using CSS.
+
+**Description List:** Used to display a list of terms and their descriptions:
+```html
+<dl>
+  <dt>HTML</dt>
+  <dd>HyperText Markup Language</dd>
+</dl>
+```
+
+**Table:** Used to display tabular data using `<table>`, `<tr>`, `<td>`, `<th>`.
+
+**LLD (Low-Level Design):** It includes detailed design of modules, classes, and database structures.
+
+---
+
+**What is Web Development:**
+Web development refers to the creation and maintenance of websites, involving web design, web programming, and database management.
+
+**Static Website and Dynamic Website:**
+- Static Website: Content is fixed and does not change (e.g., HTML pages).
+- Dynamic Website: Content is generated dynamically using server-side languages (e.g., PHP, Node.js).
+
+**How a Website Works / Client-Server Architecture:**
+1. Client (browser) sends a request to the server.
+2. Server processes and sends back a response.
+3. Client displays the result.
+
+**URL and Its Parts:**
+`https://www.example.com/page?query=value#section`
+- Protocol: `https`
+- Domain: `www.example.com`
+- Path: `/page`
+- Query string: `?query=value`
+- Fragment: `#section`
+
+**HTTP and HTTPS:**
+- HTTP: No encryption.
+- HTTPS: Secure with SSL/TLS encryption.
+
+**IPv4 and IPv6:**
+- IPv4: Limited addresses.
+- IPv6: Vast number of addresses, future-proof.
+
+**DNS (Domain Name System):**
+Translates domain names (like google.com) into IP addresses.
+
+**Agile Methodology:**
+An iterative development model where requirements evolve through collaboration. Example: Scrum.
+
+**Waterfall Model:**
+A linear and sequential approach to software development. Each phase must be completed before the next begins.
+

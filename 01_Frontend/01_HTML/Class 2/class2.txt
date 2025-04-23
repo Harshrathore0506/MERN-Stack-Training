@@ -1,0 +1,98 @@
+**HTML Basics Summary**
+
+**1. `<td>` and `<th>` in Table:**
+- `<td>` stands for 'table data' and is used to define a standard cell in an HTML table.
+- `<th>` stands for 'table header' and is used to define a header cell. Text in `<th>` is bold and centered by default.
+
+**2. Anchor href:**
+- The `href` attribute in the `<a>` tag stands for "hypertext reference".
+- It defines the URL or link destination.
+  ```html
+  <a href="https://www.example.com">Visit Example</a>
+  ```
+
+**3. `img alt`:**
+- The `alt` attribute in the `<img>` tag provides alternative text if the image fails to load.
+- It's also useful for screen readers and SEO.
+  ```html
+  <img src="logo.png" alt="Company Logo">
+  ```
+
+**4. `<video>` Tag and `controls`:**
+- The `<video>` tag is used to embed video content.
+- The `controls` attribute adds play, pause, volume, etc.
+  ```html
+  <video controls>
+    <source src="movie.mp4" type="video/mp4">
+  </video>
+  ```
+
+**5. Difference between HTML4 and HTML5:**
+- HTML5 introduces new semantic elements like `<section>`, `<article>`, `<nav>`, and `<footer>`.
+- It supports audio and video embedding without third-party plugins.
+- Improved form controls and API support (e.g., geolocation, local storage).
+
+**6. `<iframe>` – Why it's used:**
+- The `<iframe>` tag embeds another HTML page within the current page.
+- Commonly used for embedding YouTube videos, maps, or external content.
+  ```html
+  <iframe src="https://www.example.com"></iframe>
+  ```
+
+**7. SVG and PNG:**
+- **SVG (Scalable Vector Graphics)** is used for vector-based images and graphics. It's resolution-independent and ideal for icons.
+- **PNG (Portable Network Graphics)** is a raster image format suitable for detailed images and supports transparency.
+
+**8. Form and Input Attributes:**
+- The `<form>` tag is used to collect user input.
+- The `<input>` tag supports various attributes:
+  - `type` (text, email, password, etc.)
+  - `readonly` (makes input non-editable)
+  - `required` (makes input mandatory)
+  - `name` (used to reference form data after submission)
+  - `placeholder` (provides a hint inside the input field)
+  ```html
+  <form>
+    <input type="text" name="username" placeholder="Enter username" required readonly>
+  </form>
+  ```
+
+**9. `<sup>` and `<sub>` Tags:**
+- `<sup>` is used to display superscript text (e.g., x<sup>2</sup>).
+- `<sub>` is used to display subscript text (e.g., H<sub>2</sub>O).
+
+**10. `<details>` and `<summary>` Tags:**
+- `<details>` is used to create a collapsible section.
+- `<summary>` defines a visible heading for the details content.
+  ```html
+  <details>
+    <summary>More Info</summary>
+    <p>This is additional hidden content.</p>
+  </details>
+  ```
+
+**11. Data List:**
+- The `<datalist>` tag is used to provide an autocomplete feature on input elements.
+  ```html
+  <input list="browsers">
+  <datalist id="browsers">
+    <option value="Chrome">
+    <option value="Firefox">
+    <option value="Edge">
+  </datalist>
+  ```
+
+**12. Semantic Tags:**
+- Semantic tags clearly describe their meaning in a human- and machine-readable way.
+- Examples: `<header>`, `<footer>`, `<article>`, `<section>`, `<main>`, `<aside>`, and `<nav>`.
+
+**13. `<pre>` Tag:**
+- The `<pre>` tag displays preformatted text, preserving spaces and line breaks.
+  ```html
+  <pre>
+    This text
+    is exactly as written
+    in the HTML file.
+  </pre>
+  ```
+

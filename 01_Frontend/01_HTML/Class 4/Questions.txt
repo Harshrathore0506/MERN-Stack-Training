@@ -1,0 +1,108 @@
+by default text size is 16px
+html full form markup lang
+hyper text, tag self, closing tag, empty tag
+attributes
+inline elements ,block elements,inline block element,replace element norpel
+root element parent , child elements
+list and type
+input type ratio checkbox and their problem and slove them
+rowspan colspan rows and cols attributes
+ṭable 
+form
+readonly requires value name
+min max
+button tag with button tag we used submit
+DOCTYPE means
+diff html html5
+semantic text
+base url or relative url
+href full form
+iframe
+XML and HTML Diffrence
+
+**HTML Cheat Sheet**
+
+---
+
+**HTML Full Form:**
+- HTML: HyperText Markup Language
+  - HyperText: Text with hyperlinks.
+  - Markup Language: Uses tags to define elements on a page.
+
+**Default Text Size:**
+- 16px (in most browsers)
+
+**Tag Types:**
+- Self-closing/Empty Tags: <img>, <br>, <hr>, <input>
+- Closing Tags: <p>...</p>, <div>...</div>
+
+**Attributes:**
+- Provide extra information to HTML elements.
+- Example: <input type="text" placeholder="Enter name">
+
+**Element Types:**
+- Inline Elements: <span>, <a>, <strong>, <img>
+- Block Elements: <div>, <p>, <h1>, <ul>
+- Inline-block Elements: Behave like inline, but can set width/height.
+- Replaced Elements: Content is replaced by external resources. E.g., <img>, <video>, <iframe>
+
+**Hierarchy:**
+- Root Element: <html>
+- Parent Element: Contains another element.
+- Child Elements: Nested inside parent elements.
+
+**Lists and Types:**
+- Ordered List <ol>
+- Unordered List <ul>
+- Description List <dl>
+- List types: 1, A, a, i, I
+
+**Forms and Input Types:**
+- Radio Button: <input type="radio">
+- Checkbox: <input type="checkbox">
+- Common Issues:
+  - Radio buttons must have the same name to work in a group.
+  - Checkboxes need server-side checks if unchecked (they don't send data).
+
+**Tables:**
+- Tags: <table>, <tr>, <td>, <th>
+- rowspan: Merge cells vertically
+- colspan: Merge cells horizontally
+- rows/cols: Used in <textarea>
+
+**Form Attributes:**
+- readonly: Makes input uneditable
+- required: Must be filled before form submission
+- value: Default value in the input
+- name: Identifier for backend
+- min/max: Range for number/date inputs
+
+**Button Tag:**
+- <button type="button"> - for custom JS actions
+- <button type="submit"> - submits the form
+
+**DOCTYPE:**
+- Declares the HTML version: <!DOCTYPE html> (HTML5)
+
+**HTML vs HTML5:**
+| Feature       | HTML             | HTML5                     |
+|---------------|------------------|----------------------------|
+| Doctype       | Long             | <!DOCTYPE html>           |
+| Audio/Video   | Not supported    | Supported                 |
+| Semantic Tags | Fewer            | More (<section>, etc.)    |
+| Input Types   | Basic            | New ones (email, date...) |
+
+**Semantic Text:**
+- Tags: <header>, <footer>, <nav>, <main>, <section>, <article>
+
+**URLs and Links:**
+- Base URL: Full path (https://example.com/img.png)
+- Relative URL: Relative to the current page (/img.png)
+
+**href:**
+- Hypertext REFerence
+
+**iframe:**
+- Embeds external HTML pages
+- Example: <iframe src="https://example.com" width="600" height="400"></iframe>
+
